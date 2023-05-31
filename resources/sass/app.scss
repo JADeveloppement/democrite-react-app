@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply m-0 p-0 ;
+    }
+
+    #header {
+        @apply bg-demo-green text-white p-4 flex items-center justify-between shadow-xl ;
+
+        > .left {
+            @apply text-white font-bold flex items-center ;
+
+            > img {
+                @apply w-[60px] object-cover mx-2 ;
+            }
+
+            > h1 {
+                @apply text-[2rem] mx-2 ;
+            }
+        }
+
+        > .right {
+            @apply flex items-center ;
+
+            > a {
+                @apply no-underline text-white mx-2 hover:underline ;
+            }
+        }
+    }
+}
