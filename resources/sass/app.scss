@@ -30,4 +30,20 @@
             }
         }
     }
+
+    #section {
+        @apply w-full h-screen ;
+    }
+    
+    #footer {
+        @apply p-4 text-sm text-white bg-black flex items-center ;
+
+        > .left {
+            @apply flex items-center font-bold ;
+
+            > img {
+                @apply w-[40px] object-cover mx-2 ;
+            }
+        }
+    }
 }

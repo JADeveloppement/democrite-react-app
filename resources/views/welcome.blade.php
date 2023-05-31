@@ -15,6 +15,8 @@
     </head>
     <body>
         <div id="header"></div>
+        <div id="section"></div>
+        <div id="footer"></div>
         <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
